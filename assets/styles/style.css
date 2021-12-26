@@ -1,0 +1,647 @@
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    body{
+        background-color:white;
+    }
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .header{
+        padding-top: 15px;
+        display: flex;
+        width: 1440px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+    }
+    .logo{
+        display: flex;
+        height: 100px;
+        width: 150px;
+        padding-top: 15px;
+
+    }
+    .language{
+        height: 100px;
+        width: 75px;
+        padding-top: 40px;
+        text-align: center;
+        align-items: center;
+        padding-right: 35px;
+    }
+    .uli{
+        display: flex;
+        justify-content: space-around;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color:black
+    }
+    .polygon{
+        padding-left: 5px;
+    }
+    .logotype{
+        width:131px ;
+        height:72px ;
+    }
+    .phonw{
+        height: 100px;
+        width: 40px;
+        padding-left: 15px;
+        padding-top: 60px;
+    }
+    .number{
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+    }
+    .curse{
+        display: flex;
+        padding-right: 35px;
+    }
+    .searches{
+        display: flex;
+    }
+    input{
+        width: 160px;
+        height: 45px;
+        border: none;
+        background:#EFF3F6;
+        text-align: center;
+        color:black;
+    }
+    .links{
+        width:125px;
+        height: 100px;
+        display: flex;
+        padding-top: 80px;
+    }
+    .link{
+        width: 20px;
+        height: 20px;
+    }
+    .search{
+        height: 47px;
+    }
+    .searchone{
+        display: flex;
+        justify-content: center;
+    }
+    .searchtwo{
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    ::-webkit-input-placeholder{
+        color: black;
+        font-weight: bold;
+    }
+    .navigation{
+        width: 1440px;
+        height: 50px;
+        display: flex;
+        padding-top: 20px;
+    }
+    .lupa{
+        width: 50px;
+        height: 70px;
+        padding-left: 45px;
+    }
+    .btns{
+        width: 1350px;
+        height: 70px;
+    }
+    a {
+        position: relative;
+        cursor: pointer;
+        line-height: 1;
+        text-decoration: none;
+
+    }
+    a:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: crimson;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+
+    a:hover:after,
+    a:focus:after {
+        width: 100%;
+    }
+    .bckgr{
+        width: 100%;
+        height: 500px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(70, 70, 70, 0.253)), url(../images/maxresdefault.png);
+        background-size: cover; 
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+    .three{
+        width: 205px;
+        height: 32px;
+    }
+    .button{
+        width:270px ;
+        height:60px ;
+    }
+    .bttn{
+        width: 270px;
+        height: 60px;
+        color: white;
+        background:rgba(255, 255, 255, 0.25);
+        border: none;
+        font-weight: bold;
+    }
+    .txtr{
+        width: 100%;
+        height: 100%;
+        max-width: 1100px;
+        padding-top: 125px;
+    }
+    .border{
+        width: 1px;
+        height: 40px;
+        background-color: gray;
+        padding-bottom: 10px;
+    }
+    .ru{
+        background-color: lightgreen;
+        border-radius: 5px;
+    }
+    .container-m{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        background-color: #F8F8F8;
+    }
+    .main-t{
+        width: 630px;
+        height: 200px;
+
+    }
+    .bttns{
+        width: 220px;
+        height: 50px;
+        background-color: rgba(211, 211, 211, 0);
+        border: #BDBDBD 2px solid;
+    }
+    .bttns:hover{
+        transition: 0.5s;
+        background-color: #BDBDBD;
+        border: #BDBDBD 2px solid;
+
+    }
+    .bttns-s{
+        width: 270px;
+        height: 50px;
+        background-color: #BDBDBD;
+        border:none
+    }
+    .second-r{
+        width: 400px;
+        height: 40px;
+        display: flex;
+    }
+    .h{
+        padding-top: 35px;
+    }
+    .p{
+        padding-top: 15px;
+    }
+    .buttons{
+        padding-top: 15px;
+    }
+    .second-t{
+        align-items: center;
+        padding-top: 35px;
+    }
+    .image{
+        position: relative;
+        top: 17px;
+        left: -10px;
+    }
+    .buttonn{
+        width: 140px;
+        height: 45px;
+        background: none;
+        border: #BDBDBD 1px solid ;
+        color: #BDBDBD
+    }
+    .line{
+        width: 237px;
+        height: 1px;
+    }
+    .container-card{
+        width: 1440px;
+        height: 300px;
+        display: flex;
+        
+    }
+    .line{
+        display: flex;
+        background-color: gray;
+        margin-top: 25px;
+        margin-right: 175px;
+    }
+    .card-header{
+        padding-top: 100px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+    }
+    .imgg{
+        width: 50px;
+        height: 50px;
+    }
+    .imggg{
+        padding-left: 200px;
+    }
+    .imgggg{
+        padding-right: 200px;
+    }
+    .m-text{
+        font-size: 40px;
+    }
+    .buttonn:hover{
+        transition: 0.5s;
+        background-color: #BDBDBD;
+        border: rgb(228, 228, 228) 1px solid;
+        color: white;
+    }
+    .container-card-two{
+        width: 100%;
+        height: 700px;
+    }
+.cards{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.cardo{
+    width: 460px ;
+    height: 450px ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.418), rgba(70, 70, 70, 0.445)), url(../images/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);
+}
+.cardt{
+    width: 460px ;
+    height: 450px ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.418), rgba(70, 70, 70, 0.445)), url(../images/276398231\ 2.png) ;
+}
+.cardth{
+    width: 460px ;
+    height: 450px ;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.418), rgba(70, 70, 70, 0.445)), url(../images/c41c4172\ 1.png) ;
+}
+.card-t{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 140px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    right: 160px; 
+    display: flex;
+}
+.tt{
+    color:white;
+    font-weight: lighter;
+    font-size: small;
+}
+.op{
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ttt{
+    padding-top: 25px;
+    color: white;
+    font-weight: lighter;
+}
+.tttt{
+    color: white;
+    font-weight: lighter;
+}
+.euro{
+    color: white;
+    width: 250px ;
+    margin-left: 0;
+    border: white 1px solid;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+.linee{
+    height: 1px;
+    width: 100%;
+    background: gray;
+}
+.main-text{
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.bttn{
+    margin-top: 10px;
+}
+.container-travel{
+    width: 100%;
+    height: 900px;
+    background-size: 100% 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.travel{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 550px;
+    width: 840px;
+    height: 140px;
+    background-image: url(../images/travel.png);
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    align-items: center;
+}
+.hh{
+    padding-top: 30px;
+}   
+.intravel{
+    position: absolute;
+    display: flex;
+    width: 1180px;
+    height: 525px;
+    margin-top: 500px;
+    background-color: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07);
+}
+.backgr{
+    background-image: url(../images/GettyImages-685890576-2200x880\ 1.png);
+    background-size: cover;
+    width: 100%;
+    height: 525px;
+}
+.int{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 525px;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.int-t{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 525px;
+    align-items: center;
+    padding-top: 35px;  
+    padding-left: 50px;
+}
+.travelinf{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-top: 25px;
+    padding-left: 60px;
+}
+.bold{
+    font-weight: 700;
+}
+.imaga{
+    padding-top: 50px;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+}
+.card-one{
+    display: flex;
+}
+.card-two{
+    display: flex;
+}
+.card-three{
+    display: flex;
+}
+.card-four{
+    display: flex;
+}
+.card-five{
+    display: flex;
+}
+.card-six{
+    display: flex;
+}
+.container-tours{
+    height: 700px;
+    width: 1440px;
+}
+.tours-info{
+    display: flex;
+}
+.cardes{
+    width: 100%;
+    height: 500px;
+}
+.c-one{
+    width: 330px;
+    height: 480px;
+    text-align: center;
+}
+.c-two{
+    width: 330px;
+    height: 480px;
+    text-align: center;
+}
+.c-three{
+    width: 330px;
+    height: 480px;
+    text-align: center;
+}
+.card-bg{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina2.png);
+    background-size: cover;
+}
+.card-bg-tw{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina22.png);
+    background-size: cover;
+}
+.card-bg-th{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina33.png);
+    background-size: cover;
+}
+.cardes{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    height: 50px;
+    width: 50px;
+}
+.lin{
+    height: 1px;
+    width: 100%;
+    background-color: #E8E8E8;
+}
+.cardtw{
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 140px;
+    height: 30px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    right: 95px;
+}
+.card-o-info{
+    width: 100%;
+    height: 115px;
+}
+.card-tw-info{
+    width: 100%;
+    height: 115px;
+}
+.card-th-info{
+    width: 100%;
+    height: 125px;
+}
+.par{
+    padding-top: 15px;
+    color: darkgray;
+}
+.price-o{
+    padding-top: 25px;
+    display: flex;
+}
+.price-tw{
+    padding-top: 25px;
+    display: flex;
+}
+.price-th{
+    padding-top: 25px;
+    display: flex;
+}
+.price-o-o{
+    text-align: start;
+}
+.price-tw-tw{
+    text-align: start;
+}
+.price-th-th{
+    text-align: start;
+}   
+.price{
+    color: rgb(212, 37, 37);
+}
+h3{
+    font-weight: 400;
+}
+.parr{
+    padding-top: 40px;
+    color: darkgray;
+}
+.container-email{
+    width: 1440px;
+    height: 125px;
+    padding-top: 200px;
+}
+.email-header{
+    display: flex;
+    justify-content: space-around;
+}
+.email-info{
+    padding-top: 25px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.checkbox{
+    margin-top: 12.5px;
+    width: 25px;
+    height: 25px;
+}
+.input-text{
+    height: 50px;
+    width: 427px;
+    margin-left: 110px;
+}
+.btnnnn{
+    width: 237px;
+    height: 50px;
+    background-color:#DD4053;
+    color: white;
+    border: none;
+}
+h4{
+    padding-top: 15px;
+}
+.footer-bg{
+    padding-top: 10px;
+    width: 100%;
+    height: 370px;
+    background-image: url(../images/footer-image.png);
+    background-size: cover;
+}
+.footer{
+    padding-top: 125px;;
+    display: flex;
+    width: 1440px;
+    height: 150px;
+}
+.logott{
+    width: 156px;
+    height: 86px;
+}
+.lineeee{
+    width: 100%;
+    height: 1px;
+    background-color:#1D1D1D33;
+}
+.copyright{
+    padding-top: 20px;
+    display: flex;
+    width: 1440px;
+    height: 50px;
+}
+.icons{
+    width: 200px;
+    display: flex;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+}
+.iconn{
+    width: 15px;
+    height: 25px;
+}
+.iconnn{
+    width: 35px;
+    height: 25px;
+}
