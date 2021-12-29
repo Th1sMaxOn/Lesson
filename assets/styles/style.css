@@ -283,18 +283,19 @@
     }
     .container-card-two{
         width: 100%;
-        height: 700px;
+        min-height: 700px;
     }
 .cards{
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .cardo{
     width: 460px ;
     height: 450px ;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.418), rgba(70, 70, 70, 0.445)), url(../images/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.418), rgba(70, 70, 70, 0.445)), url(../images/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);;
 }
 .cardt{
     width: 460px ;
@@ -371,7 +372,6 @@
 .travel{
     display: flex;
     margin-top: 75px;
-    margin-left: 550px;
     width: 840px;
     height: 140px;
     background-image: url(../images/travel.png);
@@ -460,7 +460,8 @@
 }
 .cardes{
     width: 100%;
-    height: 500px;
+    min-height: 500px;
+    flex-wrap: wrap;
 }
 .c-one{
     width: 330px;
@@ -645,3 +646,135 @@ h4{
     width: 35px;
     height: 25px;
 }
+@media(max-width:768px){
+.header{
+    display: none;
+}
+.navigation{
+    display: none;
+}
+.bckgr{
+    width: 1440px;
+    height: 500px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.219), rgba(70, 70, 70, 0.253)), url(../images/maxresdefault.png);
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.main-t{
+    width: 75%;
+    margin-left: 50px;
+}
+.container-m{
+    width: 1440px;
+    justify-content: space-around;
+}
+.second-t{
+    width: 25%;
+}
+.imgg{
+    display: none;
+
+}
+.card-t{
+    margin-left: 160px;
+}
+.line{
+    display: none;
+}
+.container-card-two{
+    width: 1440px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 50px;
+}
+.cardo{
+    width: 51%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 20px;
+}
+.cardt{
+    width: 51%;
+    background-position: bottom;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardth{
+    width: 51%;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cards{
+    padding-top: 30px;
+}
+.container-tours{
+    width: 1440px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 50px;
+    margin-bottom: 700px;
+}
+.c-one{
+    width: 51%;
+}
+.c-two{
+    width: 51%;
+}
+.c-three{
+    width: 51%;
+}
+.cardes{
+    flex-wrap: wrap;
+}
+.card-bg{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina2.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.card-bg-tw{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina22.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.card-bg-th{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/mandarina33.png);
+    background-size: cover;
+    background-position: center;
+}
+.container-travel{
+    width: 1440px;
+}
+.footer{
+    display: none;
+}
+.footer-bg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 70px;
+}
+.container-email{
+    margin-bottom: 100px;
+}
+.lineeee{
+    display: none;
+}
+.cardtw{
+    right: 295px;
+}
+}
+    
